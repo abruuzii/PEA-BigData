@@ -16,7 +16,7 @@ tarjetas_permitidas = {
     "445f42c91a90": {"nombre": "David Minango", "cedula": "1716042435"}
 }
 
-arduino = serial.Serial('COM5', 9600)
+arduino = serial.Serial('COM8', 9600)
 
 print("Esperando tarjetas...")
 
