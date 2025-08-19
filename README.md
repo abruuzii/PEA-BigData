@@ -74,16 +74,14 @@ Pasos para Montar el Proyecto
 
 4. Programar en Python
 
-- Crear un script que:
+- El archivo .py del repositorio realiza lo siguiente:
 
-  -Lea el UID de la tarjeta desde el Arduino.
+  -Lee el UID de la tarjeta desde el Arduino.
 
-  -Verifique si el UID está en la lista de tarjetas válidas.
+  -Verifica si el UID está en la lista de tarjetas válidas.
 
-  -Envíe el registro (usuario, UID, acción y fecha/hora) a Firestore.
+  -Envía el registro (usuario, UID, acción y fecha/hora) a Firestore.
 
 5. Página Web de Visualización
 
-- Desarrollar una página web que lea los registros en tiempo real desde Firestore.
-
-- Mostrar las entradas y salidas de cada usuario con fecha y hora.
+El archivo .html del repositorio lee los registros en tiempo real desde Firestore y muestra las entradas y salidas de cada usuario con fecha y hora, además de incluir un buscador que se puede filtrar por el número de cédula.
