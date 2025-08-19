@@ -3,6 +3,7 @@ Proyecto de Control de Acceso con RFID, Arduino y Firestore
 Este proyecto consiste en un sistema de control de acceso que utiliza un lector RFID y un Arduino UNO para validar tarjetas. El sistema determina si una tarjeta es válida o no, controla un servomotor para simular la apertura de una puerta y registra las entradas/salidas en una base de datos en la nube (Firebase Firestore).
 
 Concepto del Proyecto
+
 El sistema permite registrar la asistencia o accesos de personas mediante tarjetas RFID.
 
 - La validación de las tarjetas se realiza en un programa en Python, donde se almacenan los UID válidos.
